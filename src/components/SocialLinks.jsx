@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://linkedin.com",
-      style: "rounded-tr",
+      style: " rounded-tr",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br",
+      style: " rounded-br",
       download: true,
     },
   ];
@@ -54,7 +54,8 @@ const SocialLinks = () => {
           
           <li
             key={id}
-            className={"hover-social px-2 d-flex justify-content-center align-items-center " + " " + style }
+            // className={"hover-social px-2 d-flex justify-content-center align-items-center " + " " + style }
+            className={"hover-social px-2 d-flex justify-content-center align-items-center " + style }
               style={{ width:'10rem',height:'3.5rem',backgroundColor:'#6b7280',cursor:"pointer"}}
             
             // className={

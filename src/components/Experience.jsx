@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCode,FaUikit } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
-import { RiPsychotherapyFill } from "react-icons/ri";
+// import { RiPsychotherapyFill } from "react-icons/ri";
 import { BsFillDatabaseFill } from "react-icons/bs";
 
 
