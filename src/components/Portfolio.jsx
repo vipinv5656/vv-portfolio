@@ -77,7 +77,6 @@ const Portfolio = () => {
               />
               <div className="d-flex justify-content-center align-items-center "
                style={{}}>
-
                 
                 <a href={url} target='_blank' className="flex-fill py-3 zoom"  style={{border:'none',backgroundColor:'transparent',color:'white',textDecoration:'none'}}>Demo</a>
                 <a href={code} target='_blank' className="flex-fill py-3 zoom"  style={{border:'none',backgroundColor:'transparent',color:'white',textDecoration:'none'}}>Code</a>
