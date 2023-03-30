@@ -13,10 +13,14 @@ const Portfolio = () => {
     {
       id: 1,
       src: coco,
+      url:'https://vv-onlinestore-react.netlify.app',
+      code:'https://github.com/vipinv5656/vv-onlinestore-react'
     },
     {
       id: 2,
       src: github,
+      url:'https://vv-react-githubsearch.netlify.app',
+      code:'https://github.com/vipinv5656/vv-github-user'
     },
     // {
     //   id: 3,
@@ -62,7 +66,7 @@ const Portfolio = () => {
           
 
 
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,url,code }) => (
             <div key={id} className="rounded col-lg-3 col-sm-5 shadow-whitebox"
             style={{height:'fit-content',padding:'0px'}}>
               <img
@@ -73,15 +77,11 @@ const Portfolio = () => {
               />
               <div className="d-flex justify-content-center align-items-center "
                style={{}}>
-                <button className="flex-fill py-3 zoom"
-                style={{border:'none',backgroundColor:'transparent',color:'white'}}>
-                  Demo
-                </button>
-                <button className="flex-fill py-3 zoom" 
-                 style={{border:'none',backgroundColor:'transparent',color:'white'}}>
 
-                  Code
-                </button>
+                
+                <a href={url} target='_blank' className="flex-fill py-3 zoom"  style={{border:'none',backgroundColor:'transparent',color:'white',textDecoration:'none'}}>Demo</a>
+                <a href={code} target='_blank' className="flex-fill py-3 zoom"  style={{border:'none',backgroundColor:'transparent',color:'white',textDecoration:'none'}}>Code</a>
+          
               </div>
             </div>
             
