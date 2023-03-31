@@ -64,7 +64,7 @@ const Navbar = () => {
       {/* ---- */}
       
       {nav && (
-        <ul className="about-overflow d-flex flex-column  justify-content-center align-items-center text-capitalize bg-black bg-gradient " style={{minHeight:'100vh',width:'100%',listStyleType:'none'}}>
+        <ul className=" d-flex flex-column  justify-content-center align-items-center text-capitalize bg-black bg-gradient " style={{minHeight:'100vh',width:'100%',listStyleType:'none'}}>
           {links.map(({ id, link }) => (
             <li
               key={id}

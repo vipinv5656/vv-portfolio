@@ -18,8 +18,8 @@ const Home = () => {
                                     I'm a Full Stack <br></br> Developer
                                     </h2>
                                     <p className="py-4 " style={{ maxWidth:'28rem',color:'#6b7280'}}>
-                                    I have 3 years of experience building and desgining software.
-                                    Currently, I love to work on web application using technologies like
+                                    Having three years of experience in building and desgining software,
+                                    Currentl I love to work on web application using technologies like
                                     React Js, Tailwind Css, and Php .
                                     </p>
 

@@ -4,13 +4,13 @@ const Contact = () => {
   return (
       <section
         name="contact"
-        className="hero-background"
-        style={{width:'100%',minHeight:'100vh'}}>
+        className="hero-background "
+        style={{minWidth:'100%',minHeight:'100vh'}}>
 
             <div className="container-lg px-4   d-flex flex-column justify-content-start  gap-3" 
-            style={{paddingTop:'80px',width:'80%',backgroundSize:'cover'}}>
+                style={{paddingTop:'80px',width:'80%',backgroundSize:'cover'}}>
                 
-
+          
                 <div className='d-flex flex-column justify-content-center ' style={{marginBottom:'1px'}}>
                     <p className=" py-5" style={{fontWeight:'700', 
                                   color:"white",fontSize:'36px',lineHeight:'40px'}}>Contact</p>
@@ -63,8 +63,25 @@ required
           </form>
 
                 </div>
-            </div>
+           
 
+            </div>
+             
+
+<div className='bg-dark px-2 d-flex justify-content-center m-0 ' style={{minWidth:'100%'}}>
+  <div className='container row ' style={{minWidth:'80%'}}>
+                <div className='col-12 py-2   d-flex justify-content-center align-items-center' style={{color:'white'}}>
+                  <p> Ph: 0892701025 &nbsp; </p>
+                  
+                  <p>|&nbsp;  Email: vipin.kulangara@hotmail.com</p>
+                  </div>
+                <div className='col-12 py-2 d-lg-none  d-flex justify-content-center align-items-center' style={{color:'white'}}>
+                  <a href="https://github.com/vipinv5656"  target="_blank" rel="noreferrer" style={{textDecoration:'none',color:'white'}}>Github &nbsp; |</a>
+                  <a href="https://www.linkedin.com/in/vipin-varghese-86353a166/"  target="_blank" rel="noreferrer" style={{textDecoration:'none',color:'white'}}>&nbsp; LinkedIn</a>
+                </div>
+  </div>
+                
+            </div>
     </section>
   )
 }
