@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="">
 
-        <p className="mt-5" style={{color:"#dcdde1",fontSize:'20px',lineHeight:'28px'}}>
+        <p className="mt-5 text-justify" style={{color:"#dcdde1",fontSize:'20px',lineHeight:'28px'}}>
          A diligent Full-Stack Developer with three year experience in building and maintaining responsive websites  and i would like to work on web based technologies like  React JS , Javascript and Php  with modern libraries like Axios , Redux and Immet . 
          Passionate about usability and capable of thinking from a business viewpoint to understand business processes and needs. 
          In addition, I have extensive design experience with prototyping technologies like  Adobe XD and Adobe Photoshop.
@@ -23,7 +23,7 @@ const About = () => {
 
         <br />
 
-        <p className="" style={{color:"#dcdde1",fontSize:'20px',lineHeight:'28px'}}>
+        <p className="text-justify" style={{color:"#dcdde1",fontSize:'20px',lineHeight:'28px'}}>
          Being a master's and a bachelor's graduate in computer science, I have updated my expertise by taking online courses from udemy taught by industry prominent developers, which allows me to stay current with industry requirements. I am  willing to learn new technologies in order to improve my skill-set in respose on project requirement.
          
         </p>

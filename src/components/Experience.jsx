@@ -19,7 +19,7 @@ const Experience = () => {
                 <div className='d-flex flex-column justify-content-center ' style={{marginBottom:'50px'}}>
                     <p className=" pt-5" style={{fontWeight:'700', 
                                   color:"white",fontSize:'36px',lineHeight:'40px'}}>Skills Overview</p>
-                    <p className='pb-1 ' style={{color:'#dcdde1',fontSize:'20px',lineHeight:'28px'}}>
+                    <p className='pb-1 text-justify' style={{color:'#dcdde1',fontSize:'20px',lineHeight:'28px'}}>
                         I have three years of experience building rich web applications.
                         Previously worked in a banking software development company which offers banking modules to co-operative banks. 
                         During my tenure in company , I was assigned to assist in developing new modules for banking application and to develop internal company management application which I was involved from initial stage of gathering the requirement to deploying the application.
