@@ -3,7 +3,7 @@ import React from 'react'
 import HeroImage from "../assets/imageprofile.jpg";
 import { MdOutlineKeyboardArrowRight,MdBookmarks } from "react-icons/md";
 import { Link } from "react-scroll";
-import resume from "../assets/vipinReactCV.pdf";
+import resume from "../assets/VipinVarghese.pdf";
 
 
 const Home = () => {
