@@ -68,7 +68,7 @@ required
             </div>
              
 
-<div className='bg-dark px-2 d-flex justify-content-center m-0 ' style={{minWidth:'100%'}}>
+<div className='bg-dark  d-flex justify-content-center m-0 ' style={{minWidth:'100%'}}>
   <div className='container row ' style={{minWidth:'80%'}}>
                 <div className='col-12 py-2   d-flex justify-content-center align-items-center' style={{color:'white'}}>
                   <p> Ph: 0892701025 &nbsp; </p>
