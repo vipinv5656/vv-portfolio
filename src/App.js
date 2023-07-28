@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Homecopy from './components/Homecopy';
 // import Homecopy from './components/Homethree';
-import SocialLinks from './components/SocialLinks';
+import SocialLinks from './components/SocialLinks copy';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
