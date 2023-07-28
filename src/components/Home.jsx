@@ -19,8 +19,8 @@ const Home = () => {
                                     </h2>
                                     <p className="py-4 " style={{ maxWidth:'28rem',color:'#6b7280'}}>
                                     Having three years of experience in building and desgining software,
-                                    Currentl I love to work on web application using technologies like
-                                    React Js, Tailwind Css, and Php .
+                                    Currently ,I love to work on web application using technologies like
+                                    React Js ,Javascript and Php using laravel  .
                                     </p>
 
                                     <div>

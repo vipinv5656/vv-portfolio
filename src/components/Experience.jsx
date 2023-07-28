@@ -51,9 +51,9 @@ const Experience = () => {
                         
      
                          <div className=' p-4' ><ul style={{listStyle:'none'}}>
-                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'} />  Php</li>
-                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'}  /> PostgreSQL</li>
-                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'}  /> MySQL</li>
+                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'} />  Php / laravel</li>
+                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'}  /> PostgreSQL / MySql</li>
+                            <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'}  /> Json / Api</li>
                             <li style={{color:'white'}}><TiTick size={20} color={'#e58e26'} />  Firebase</li>
                         </ul></div>
                     </div>

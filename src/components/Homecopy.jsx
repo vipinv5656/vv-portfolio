@@ -27,7 +27,7 @@ const Home = () => {
                                     
                                     Having three years of experience in building and desgining software,
                                     Currently I love to work on web application using technologies like
-                                    React Js, Tailwind Css, and Php .
+                                    React Js ,Javascript and Php with laravel .
                                     </p>
 
                                     <div>
