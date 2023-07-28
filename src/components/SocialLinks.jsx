@@ -27,15 +27,15 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/vipinv5656",
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:vipin.kulangara@hotmail.com",
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Mail <HiOutlineMail size={30} />
+    //     </>
+    //   ),
+    //   href: "mailto:vipin.kulangara@hotmail.com",
+    // },
     {
       id: 4,
       child: (
