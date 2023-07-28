@@ -29,8 +29,8 @@ const SocialLinks = () => {
     },
     {
       id: 3,
-      child: (
-        <>
+      child: ( 
+        <> 
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
