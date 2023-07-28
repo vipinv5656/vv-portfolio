@@ -22,13 +22,13 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "https://github.com/vipinv5656",
+      href: "mailto:vipin.kulangara@hotmail.com",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
