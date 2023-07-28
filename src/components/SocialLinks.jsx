@@ -27,17 +27,17 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/vipinv5656",
     },
-    // {
-    //   id: 3,
-    //   child: (
-    //     <>
-    //       Mail <HiOutlineMail size={30} />
-    //     </>
-    //   ),
-    //   href: "mailto:vipin.kulangara@hotmail.com",
-    // },
     {
       id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:vipin.kulangara@hotmail.com",
+    },
+    {
+      id: 4,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
@@ -54,8 +54,7 @@ const SocialLinks = () => {
     <div className="d-none  d-lg-block "
           style={{top:'40%',left:'0px',position:"fixed", flexDirection: 'column'}}>
       <ul style={{listStyleType:'none'}}>
-        {links.map(({ id, child, href, style, download }) => (
-          
+        {links.map(({ id, child, href, style, download }) => (          
           <li
             key={id}
             // className={"hover-social px-2 d-flex justify-content-center align-items-center " + " " + style }
