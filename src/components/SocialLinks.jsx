@@ -37,7 +37,7 @@ const SocialLinks = () => {
     //   href: "mailto:vipin.kulangara@hotmail.com",
     // },
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
