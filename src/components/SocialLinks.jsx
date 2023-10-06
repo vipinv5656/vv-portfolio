@@ -2,8 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import resume from "../assets/vipinReactCV.pdf";
-import resume from "../assets/vipinVarghese2.pdf";
+
+import resume from "../assets/vipin varghese - Software Engineer.pdf";
 
 
 const SocialLinks = () => {
@@ -22,29 +22,19 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/vipinv5656",
-    },
-    {
-      id: 3,
-      child: (
-        <>
           Mail <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:vipin.kulangara@hotmail.com",
     },
     {
-      id: 4,
-      child: (
-        <>
+      id: 3,
+      child: ( 
+        <> 
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      // href: "/resume.pdf",
-      href: resume,
+         href: resume,
       style: " rounded-br",
       download: true,
     },
@@ -57,15 +47,11 @@ const SocialLinks = () => {
         {links.map(({ id, child, href, style, download }) => (          
           <li
             key={id}
-            // className={"hover-social px-2 d-flex justify-content-center align-items-center " + " " + style }
+        
             className={"hover-social px-2 d-flex justify-content-center align-items-center " + style }
               style={{ width:'10rem',height:'3.5rem',backgroundColor:'#6b7280',cursor:"pointer"}}
             
-            // className={
-            //   "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-            //   " " +
-            //   style
-            // }
+          
           >
             <a
               href={href}
